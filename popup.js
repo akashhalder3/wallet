@@ -266,8 +266,9 @@ function openImportModel() {
   document.getElementById("import_account").style.display = "block";
   document.getElementById("home").style.display = "none";
 }
+
 function closeImportModel() {
-  document.getElementById("create_popUp").style.display = "none";
+  document.getElementById("import_account").style.display = "none";
   document.getElementById("home").style.display = "block";
 }
 function addToken() {
