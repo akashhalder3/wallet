@@ -1,0 +1,16 @@
+{
+  "name": "evmos_wallet",
+  "description": "Transfer fund",
+  "icons": {
+    "128": "favicon.png",
+    "16": "favicon.png"
+  },
+  "manifest_version": 3,
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "favicon.png"
+  },
+  "content_security_policy": {},
+  "permissions": ["tabs", "bookmarks", "unlimitedStorage", "nativeMessaging"]
+}
